@@ -55,22 +55,22 @@
 
     <TextView
         android:id="@+id/tempMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="501dp"
+        android:layout_height="235dp"
         android:layout_margin="8dp"
         android:fontFamily="@font/roboto_condensed_regular"
-        android:textColor="@color/white"
-        android:textAlignment="center"
         android:text="@string/_20"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="150sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/degree"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.261"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/city"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.03"
         tools:ignore="RtlCompat" />
 
     <TextView
@@ -81,7 +81,7 @@
         android:layout_marginBottom="528dp"
         android:fontFamily="@font/average_sans"
         android:text="@string/c"
-        android:textColor="@color/orange"
+        android:textColor="@color/orange2"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -204,9 +204,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:background="@drawable/hours_bg"
         android:gravity="center"
         android:orientation="vertical"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -215,32 +215,14 @@
         app:layout_constraintVertical_bias="0.07999998"
         tools:ignore="DisableBaselineAlignment,UselessLeaf">
 
-        <TextView
-            android:id="@+id/todayText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:layout_weight="1"
-            android:textColor="@color/white"
-            android:drawableStart="@drawable/ic_baseline_calendar_today_24"
-            android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
-            android:drawablePadding="5dp"
-            android:fontFamily="@font/average_sans"
-            android:paddingStart="10dp"
-            android:paddingLeft="10dp"
-            android:text="@string/today"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            tools:ignore="RtlCompat,RtlSymmetry,UseCompatTextViewDrawableXml" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="0dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:paddingBottom="5dp"
             android:orientation="horizontal"
+            android:paddingBottom="5dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0"
@@ -262,15 +244,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_10_am"
+                    android:textColor="@color/white"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/hour1img"
                     android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:contentDescription="TODO"
                     tools:ignore="ContentDescription,HardcodedText"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -280,8 +262,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_21"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -300,15 +282,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_10_am"
+                    android:textColor="@color/white"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/hour2img"
                     android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:contentDescription="TODO"
                     tools:ignore="ContentDescription,HardcodedText"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -318,8 +300,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_21"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -338,15 +320,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_10_am"
+                    android:textColor="@color/white"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/hour3img"
                     android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:contentDescription="TODO"
                     tools:ignore="ContentDescription,HardcodedText"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -356,8 +338,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_21"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -376,15 +358,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_10_am"
+                    android:textColor="@color/white"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/hour4img"
                     android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:contentDescription="TODO"
                     tools:ignore="ContentDescription,HardcodedText"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -394,8 +376,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_21"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -414,15 +396,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_10_am"
+                    android:textColor="@color/white"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/hour5img"
                     android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:contentDescription="TODO"
                     tools:ignore="ContentDescription,HardcodedText"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -432,8 +414,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
-                    android:textColor="@color/white"
                     android:text="@string/_21"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -442,9 +424,12 @@
     </LinearLayout>
 
     <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -478,15 +463,15 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
                     android:padding="5dp"
-                    android:textColor="@color/white"
                     android:text="@string/saturday"
+                    android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/day1img"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
                     android:contentDescription="TODO"
                     tools:ignore="ContentDescription,HardcodedText"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -497,8 +482,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
                     android:padding="5dp"
-                    android:textColor="@color/white"
                     android:text="@string/_19"
+                    android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -523,15 +508,15 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
                     android:padding="5dp"
-                    android:textColor="@color/white"
                     android:text="@string/sunday"
+                    android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/day2img"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
                     android:contentDescription="TODO"
                     tools:ignore="ContentDescription,HardcodedText"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -542,8 +527,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
                     android:padding="5dp"
-                    android:textColor="@color/white"
                     android:text="@string/_19"
+                    android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -568,15 +553,15 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
                     android:padding="5dp"
-                    android:textColor="@color/white"
                     android:text="@string/monday"
+                    android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/day3img"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
                     android:contentDescription="TODO"
                     tools:ignore="ContentDescription,HardcodedText"
                     tools:srcCompat="@tools:sample/avatars" />
@@ -587,8 +572,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
                     android:padding="5dp"
-                    android:textColor="@color/white"
                     android:text="@string/_19"
+                    android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -611,15 +596,15 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
                     android:padding="5dp"
-                    android:textColor="@color/white"
                     android:text="@string/wednesday"
+                    android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/day4img"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
                     android:contentDescription="TODO"
                     android:padding="5dp"
                     tools:ignore="ContentDescription,HardcodedText"
@@ -631,8 +616,8 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/average_sans"
                     android:padding="5dp"
-                    android:textColor="@color/white"
                     android:text="@string/_19"
+                    android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
 
@@ -641,5 +626,25 @@
 
         </LinearLayout>
     </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/todayText"
+        android:layout_width="401dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="328dp"
+        android:layout_weight="1"
+        android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+        android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/average_sans"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/today"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="RtlCompat,RtlSymmetry,UseCompatTextViewDrawableXml"
+        tools:layout_editor_absoluteX="1dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
