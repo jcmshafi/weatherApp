@@ -81,7 +81,7 @@
         android:layout_marginBottom="528dp"
         android:fontFamily="@font/average_sans"
         android:text="@string/c"
-        android:textColor="@color/orange2"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -644,7 +644,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="RtlCompat,RtlSymmetry,UseCompatTextViewDrawableXml"
+        tools:ignore="MissingConstraints,RtlCompat,RtlSymmetry,UseCompatTextViewDrawableXml"
         tools:layout_editor_absoluteX="1dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
